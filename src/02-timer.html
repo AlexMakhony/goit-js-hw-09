@@ -9,12 +9,17 @@
   <body>
     <p><a href="index.html">Go back</a></p>
 
-    <input type="text" id="datetime-picker" />
-    <button type="button" data-start>Start</button>
+    <div class="timer__area">
+      <input class="timer__menu" type="text" id="datetime-picker" />
+    <div class="buttons__area">
+      <button class="timer__btn" type="button" data-start>Start</button>
+      <button class="timer__btn" type="button" data-stop>Stop</button>
+    </div>
+    </div>
 
     <div class="timer">
       <div class="field">
-        <span class="value" data-days>00</span>
+        <span class="value" data-days>0</span>
         <span class="label">Days</span>
       </div>
       <div class="field">
