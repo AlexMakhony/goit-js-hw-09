@@ -33,6 +33,8 @@ function createPromise(position, delay) {
 };
 
 // step 5: create function for our form
+
+
 function onSubmitForm(e) {
   e.preventDefault();
   let delay = Number(refs.delay.value);
